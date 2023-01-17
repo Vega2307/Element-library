@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.gallery {
+    display: flex;
+    width: 440px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallery__img {
+    min-width: 0;
+    flex: 1 1 10px;
+    object-fit: cover;
+    opacity: 0.5;
+    transition: 0.5s;
+    object-position: center;
+}
+
+.gallery__img:hover {
+    flex: 1 1 280px;
+    opacity: 1;
+}
