@@ -1,0 +1,91 @@
+body {
+    background-color: #131417;
+}
+
+p {
+    text-shadow: 0 0 7px rgba(255, 255, 255, 1);
+}
+
+.container {
+    color: #e5e5e5;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation {
+    height: 44px;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.animation > div > div {
+    padding: 0.25rem 0.75rem;
+    height: 2.81rem;
+    margin-bottom: 2.81rem;
+    display: inline-block;
+}
+
+.animation div:first-child {
+    animation: text-animation 8s infinite;
+}
+
+.first {
+    color: #20a7d8;
+    text-shadow: 0 0 7px rgb(78, 147, 207);
+}
+
+.second {
+    color: #CD921E;
+    text-shadow: 0 0 7px rgb(234, 224, 89);
+}
+
+.third {
+    color: #c10528;
+    text-shadow: 0 0 7px rgb(235, 73, 108);
+}
+
+@keyframes text-animation {
+    0% {
+        margin-top: 0;
+    }
+
+    10% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: -2.5rem;
+    }
+
+    30% {
+        margin-top: -2.5rem;
+    }
+
+    40% {
+        margin-top: -5rem;
+    }
+
+    60% {
+        margin-top: -5rem;
+    }
+
+    70% {
+        margin-top: -2.5rem;
+    }
+
+    80% {
+        margin-top: -2.5rem;
+    }
+
+    90% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
